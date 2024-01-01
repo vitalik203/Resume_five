@@ -2,16 +2,26 @@ body{
     background-color: #acabab;
 }
 .wrapper {
+    background: url(../img/side.png);
+    background-repeat: no-repeat;
+    background-position: right;
     width: 960px;
 height: 1358px;
 border-radius: 12px;
 border: 8px solid grey;
 margin: 0 auto;
 background-color: white;
+display: flex;
+flex-direction: column;
 }
 .header {
+    height: 219px;
 }
 .main {
+    flex: 1 0 auto;
 }
 .footer {
+    height: 114px;
+    background: url(../img/footer.png);
+    flex-shrink: 0;
 }
